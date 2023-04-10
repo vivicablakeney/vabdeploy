@@ -27,10 +27,10 @@ const Products = () => {
     };
     fetchAllProducts();
   }, [category, price]);
-  const catgoryFilterHandler = (e) => {
-    setCategory(e.target.value);
-    console.log(e.target.value)
-    }
+  // const categoryFilterHandler = (e) => {
+  //   setCategory(e.target.value);
+  //   console.log(e.target.value)
+  //   }
 
   const handlePriceFilter = (e) => {
     const { name, value } = e.target;
