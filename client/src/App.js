@@ -3,7 +3,6 @@ import React from 'react';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Plans from './pages/Plans';
-// import Services from './pages/Services';
 import Products from './pages/Products';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -26,9 +25,8 @@ function App() {
        <Route path='/products' element={<Products/>}/>
        <Route path='/contact' element={< Contact/> }/> 
        </Routes>  
-  
-       <Footer/>
        </Router>
+       <Footer/>
     
   </div>
       );
