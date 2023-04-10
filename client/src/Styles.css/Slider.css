@@ -1,0 +1,26 @@
+
+.hero-slider {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  
+    }
+    
+  .hero-slider img {
+    width: 40%;
+    height: 50%;
+    margin: 0 auto;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .hero-slider img {
+        width: 40%;
+        height: 50%;
+        margin: 0;
+        order: -1;
+  
+      }
+    }
+    
+  
+    
