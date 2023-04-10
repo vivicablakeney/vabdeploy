@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <div className="image">
-        <img src="images/keychain.jpg" alt="" />
+        <img src="images/keychain.jpg" alt="keychain" />
       </div>
       <form action="" onSubmit={handleSubmit}>
         <h3>Stay Connected!</h3>

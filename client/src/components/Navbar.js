@@ -8,7 +8,7 @@ state = { navOpen: false };
 render() {
 return (
 <nav>
-<div className='logo'> <img src="images/logo1.png"></img></div>
+<div className='logo'> <img src="images/logo1.png" alt="logo"></img></div>
 <ul id="navbar" className={this.state.navOpen ? "active" : ""}>
 <li>
 <a className="active" href="/">Home</a>
