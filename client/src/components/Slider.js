@@ -35,7 +35,7 @@ function HeroSlider() {
   
 // "useEffect" hook is used to set an interval that calls the "setCurrentSlide" 
 //function every 5000 milliseconds (or 5 seconds)
-  useEffect(() => {
+  useEffect((slides) => {
     const interval = setInterval(() => {
       setCurrentSlide((currentSlide + 1) % slides.length);
     }, 5000);

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import '../Styles.css/Contact.css';
 
 // usues use state hook to create four state variables to keep track of the values entered into each input field: 
