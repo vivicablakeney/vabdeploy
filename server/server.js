@@ -36,6 +36,6 @@ app.get("/products", (_req, res)=> {
     })
 })
 
-app.listen(8008, ()=>{
+app.listen(8005, ()=>{
     console.log("Connected to backend!")
 })
