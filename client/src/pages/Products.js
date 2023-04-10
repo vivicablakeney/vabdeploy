@@ -8,7 +8,7 @@ const Products = () => {
   const [Products, setProducts] = useState([]);
   const [minPrice, setMinPrice] = useState(0);
   const [maxPrice, setMaxPrice] = useState(150);
-  const [category, setCategory] = useState("");
+  const [category] = useState("");
   const [price] = useState("");
   const [sortOrder, setSortOrder] = useState('asc');
 
